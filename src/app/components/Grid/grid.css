@@ -1,0 +1,20 @@
+:root {
+  --margin: 1vw;
+  --gap: 1vw;
+}
+
+#grid {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: var(--gap);
+  padding: 0 var(--margin);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.grid-item {
+  background-color: rgba(255, 0, 0, 0.1); /* Color de fondo de ejemplo */
+  width: 100%;
+}
