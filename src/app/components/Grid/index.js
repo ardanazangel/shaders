@@ -3,7 +3,7 @@
 import "./grid.css";
 import { useEffect, useState } from "react";
 
-export default function grid() {
+export default function Grid() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
